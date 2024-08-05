@@ -10,5 +10,7 @@ namespace BlazorApp1.Data
         public DbSet<BlazorApp1.Models.Departments> Departments { get; set; } = default!;
         public DbSet<BlazorApp1.Models.Majors> Majors { get; set; } = default!;
         public DbSet<BlazorApp1.Models.Subjects> Subjects { get; set; } = default!;
+        public DbSet<BlazorApp1.Models.Courses> Courses { get; set; } = default!;
+        public DbSet<ApplicationUser> ApplicationUser { get; set; } = default!;
     }
 }

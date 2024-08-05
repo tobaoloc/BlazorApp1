@@ -90,6 +90,7 @@ namespace BlazorApp1
             app.MapAdditionalIdentityEndpoints();
 
             app.Run();
+            // Push test
         }
     }
 }
